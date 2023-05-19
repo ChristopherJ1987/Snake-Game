@@ -1,0 +1,25 @@
+html {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/images/snakeScales.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    z-index: -1;
+}
+#scoreBoard {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 4rem;
+    font-family: serif, sans-serif;
+    z-index: 2;
+    color: #00151a;
+    text-shadow: 0 0 3px #1a602b, 0 0 5px #136249;
+}
+#gameCanvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    box-shadow: 0 0 22px 44px rgba(6, 58, 58, 0.801);
+}
